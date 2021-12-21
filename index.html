@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Landing Page</title>
+</head>
+<body>
+<div class="container">
+    
+    <nav class="main-nav">
+           
+            <div class="nav-left">
+                <div>
+                    <img src="images/inner-join-left.png" alt="inner-joint is missing"> 
+                </div>
+                <div class="stella"> 
+                Stella Studio
+                </div>
+            </div>
+
+            <!--list-->   
+                    <ul class="menu">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                
+            
+
+            <!--right icon-->
+            <div class="align-right-box">
+            
+            <i class="fas fa-align-right"></i>
+            </div>
+        
+    </nav>
+
+    <!--first section-->
+    <section>
+        <div class="container2">
+            
+            <div>
+            <h1>
+                Enabling brands to flow with change in order to grow
+                <img src="images/rocket.png" alt="">
+            </h1>
+            </div>
+            
+            <div class="below-heading">
+                <div class="heading-buttons">
+                    <button class="btn btn-dark">Get Started</button>
+                    <button class="btn btn-secondary">Get Quote</button>
+                </div>
+                <div class="text">
+                    /WEB DESIGN     /BRANDING    /MARKETING
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container3">
+            <!--left-part-->
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="user">
+                        <img src="images/user.jpg" alt="">
+                        <div class="user-info">
+                            <h4>Lorenzo Morena</h4>
+                            <small>Founder</small>
+                        </div>
+                    </div> 
+                </div> 
+            
+
+                <div class="card-header">
+                    <img src="images/spiral-stairs.png" alt="" class="card-image">
+                </div>
+                
+            </div> 
+                
+            <div class="right-part">
+                <h2>We propel results-driven growth</h2>
+                <p>
+                    At the start of every project, we customize a detailed project plan together with you to set expectations, ensure alignment and define key milestones and deliverabies. Experience tells us the best solutions are the ones co-ideated with clients. We incorporate your ideas with our broad level of expertise to create memorable experiences for your brands & products. 
+                </p>
+                <br>
+                <button class="btn btn-light">View Detail</button>
+            </div>
+        </div> 
+    </section>
+
+</div>
+</div>
+
+<script>
+        document.querySelector('.align-right-box').addEventListener('click', () => document.querySelector('.menu').classList.toggle('show'));
+         
+      </script>
+
+</body>
+</html>
